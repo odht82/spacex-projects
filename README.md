@@ -1,4 +1,4 @@
-# Starbucks Responsive Web app with React.js, Vanilla CSS
+# SpaceX Responsive Web app with React.js, Vanilla CSS
 
 Visit The [Live Website](https://spacex-projects.netlify.app/).
 
