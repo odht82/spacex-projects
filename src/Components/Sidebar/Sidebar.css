@@ -1,0 +1,336 @@
+@media screen and (max-width:699px) {
+    .side-bar-container {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .side-bar {
+        width: 100%;
+        margin: 15px;
+        padding: 10px;
+        background: #FFFFFF;
+        border-radius: 6px;
+    }
+
+    .side-bar-heading-text {
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .launch-year {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+    }
+
+    .filter-heading {
+        font-family: 'Inter';
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .filter-heading-underline {
+        color: #BBBBBB;
+        width: 160px;
+        margin-top: 6px;
+    }
+
+    .filter-buttons-group {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .filter-button {
+        width: 88px;
+        height: 32px;
+
+        margin-top: 10px;
+        margin-bottom: 5px;
+
+        border: none;
+        background: #C8DF9B;
+        border-radius: 5px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font-family: 'Inter';
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+
+        color: #000000;
+    }
+
+    .filter-button:hover {
+        background: #7ABB43;
+    }
+
+    .year-filter-button:focus-visible {
+        background: #7ABB43;
+    }
+
+    .launch-filter-button:focus-visible {
+        background: #7ABB43;
+    }
+
+    .land-filter-button:focus-visible {
+        background: #7ABB43;
+    }
+
+    .successful-launch {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+        margin-top: 25px;
+    }
+
+    .successful-filter-buttons-group {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .successful-landing {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 25px 10px 60px 10px;
+    }
+
+    .landing-filter-buttons-group {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width:700px)and (max-width:1023px) {
+    .side-bar-container {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .side-bar {
+        width: 233px;
+        height: 681px;
+        margin: 15px;
+        padding: 10px;
+        background: #FFFFFF;
+        border-radius: 6px;
+    }
+
+    .side-bar-heading-text {
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .launch-year {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+    }
+
+    .filter-heading {
+        font-family: 'Inter';
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .filter-heading-underline {
+        color: #BBBBBB;
+        width: 160px;
+        margin-top: 6px;
+    }
+
+    .filter-buttons-group {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .filter-button {
+        width: 96px;
+        height: 32px;
+
+        margin-top: 10px;
+        margin-bottom: 5px;
+
+        border: none;
+        background: #C8DF9B;
+        border-radius: 5px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font-family: 'Inter';
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+
+        color: #000000;
+    }
+
+    .filter-button:hover {
+        background: #7ABB43;
+    }
+
+    .filter-button:focus {
+        background: #7ABB43;
+    }
+
+    .successful-launch {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+        margin-top: 25px;
+    }
+
+    .successful-filter-buttons-group {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .successful-landing {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+        margin-top: 25px;
+    }
+
+    .landing-filter-buttons-group {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .side-bar-container {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .side-bar {
+        width: 233px;
+        height: 681px;
+        margin: 15px;
+        padding: 10px;
+        background: #FFFFFF;
+        border-radius: 6px;
+    }
+
+    .side-bar-heading-text {
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .launch-year {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+    }
+
+    .filter-heading {
+        font-family: 'Inter';
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .filter-heading-underline {
+        color: #BBBBBB;
+        width: 160px;
+        margin-top: 6px;
+    }
+
+    .filter-buttons-group {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .filter-button {
+        width: 96px;
+        height: 32px;
+
+        margin-top: 10px;
+        margin-bottom: 5px;
+
+        border: none;
+        background: #C8DF9B;
+        border-radius: 5px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font-family: 'Inter';
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+
+        color: #000000;
+    }
+
+    .filter-button:hover {
+        background: #7ABB43;
+    }
+
+    .filter-button:focus {
+        background: #7ABB43;
+    }
+
+    .successful-launch {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+        margin-top: 25px;
+    }
+
+    .successful-filter-buttons-group {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .successful-landing {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+        margin-top: 25px;
+    }
+
+    .landing-filter-buttons-group {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+}
